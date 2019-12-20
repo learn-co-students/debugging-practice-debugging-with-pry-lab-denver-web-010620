@@ -1,3 +1,4 @@
+require 'pry'
 class GasStation
 
   # Remember which methods this "magic command", "attr_reader" creates.
@@ -5,10 +6,15 @@ class GasStation
   # https://www.rubyguides.com/2018/11/attr_accessor/
   # https://stackoverflow.com/questions/20018784/attr-accessor-vs-attr-reader-instance-variables/20018831
   attr_reader :brand, :unleaded_price
+def unleaded_price=(station)
+ # station.unleaded_price = unleaded_price + 40
+end
 
   def initialize(brand, unleaded_price)
+  
     @brand = brand
-    @unleaded_price = unleaded_price
+    @unleaded_price = unleaded_price 
+    
   end
 
 end
