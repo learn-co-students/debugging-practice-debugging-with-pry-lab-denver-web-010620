@@ -1,3 +1,6 @@
+#require './lib/debugging-practice-debugging-with-pry-lab-denver-web-010620/first_priority/you_called.rb'
+#/home/maigah/.atom/.learn-ide/home/generic-macro-1462/debugging-practice-debugging-with-pry-lab-denver-web-010620
+
 class Person
   attr_accessor :name, :candy_lover
 
@@ -24,6 +27,7 @@ class Person
     else
       10.times do
         "not a ballin candy lover"
+      end
     end
   end
 end
